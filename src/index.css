@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  /* Define the Manrope font family for the header and dashboard */
+  --font-manrope: "Manrope", sans-serif;
+
+  /* Custom colors from the Adobe XD template */
+  --color-brand-primary: #01F0D0;
+  --color-header-text: #072635;
+  --color-bg-main: #F6F7F8;
+  --color-chart-pink: #E66FD2;
+  --color-chart-purple: #8C6FE6;
+
+  /* Custom shadow for the "lift" effect on cards */
+  --shadow-card-lift: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+body {
+  @apply font-manrope bg-bg-main text-header-text;
+}
